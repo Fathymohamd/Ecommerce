@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+--main_color: #0090f0;
+--p_color : #767676;
+--bg_color : #F3F3F3;
+--white_color : #fff;
+--color_heading : #253237;
+--boder-color : #d6d6d6d5;
+}
+.container img {
+    width: 50px;
+    border-radius: 3px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1200;
+    background-color: var(--white_color);
+}
+
+.top_header .container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 0;
+}
+.top_header .search_box  {
+display: flex;
+justify-content: center;
+background-color: var(--bg_color);
+border-radius: 30px;
+border: 2px solid var(--main_color);
+}
+
+#search {
+    width: 440px;
+    height: 45px;
+background: var(--bg_color);
+border-radius: 20px;
+font-size: 20px;
+font-weight: 700;
+margin-left: 1rem;
+}
+#search::placeholder {
+    font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.buttondata {
+    height: 45px;
+    width: 60px;
+    background-color: var(--main_color);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 0 30px 30px 0;
+    color: #fff;
+}
+
+.header-icons {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.header-icons .icon svg{
+    font-size: 25px;
+  
+}
+.header-icons .icon {
+  position: relative;
+  cursor: pointer;
+}
+.header-icons .icon .count {
+    position: absolute;
+    top: -5px;
+    right: -13px;
+    font-size: 11px;
+    background-color: var(--main_color);
+    border-radius: 100%;
+    color: #F3F3F3;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .icons {
+    margin-top: 10px;
+  }
+
+  #search {
+    width: 170px;
+    height: 45px;
+background: var(--bg_color);
+border-radius: 20px;
+font-size: 20px;
+font-weight: 700;
+margin-left: 1rem;
+}
+#search::placeholder {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.buttondata {
+    height: 45px;
+    width: 40px;
+    background-color: var(--main_color);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 0 30px 30px 0;
+    color: #fff;
+}
+.container img {
+    width: 30px;
+    border-radius: 3px;
+    padding:3px;
+}
+}

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border-inline: 2px solid red ; */
+}
+:root {
+--main_color: #0090f0;
+--p_color : #767676;
+--bg_color : #F3F3F3;
+--white_color : #fff;
+--color_heading : #253237;
+--boder-color : #d6d6d6d5;
+}
+
+.form-wrapper {
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+.submitdata {
+    background-color: aqua;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 800;
+    font-weight: 700;
+ color: #fff;
+ width: 100%;
+ padding: 10px;
+ text-align: center;
+ cursor: pointer;
+ transition: 0.3s;
+ border: none;
+
+}
+.submitdata:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+    transform: scale(0.9);
+}
+
+.user {
+ width: 80%;
+    margin-left: 9.5rem;
+    font-size: 22px; 
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+   
+.logindata {
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px;
+    margin-top: 3px;
+    transform: 0.3s;
+}
+
+.logindata:hover {
+color: var(--main_color);
+transform: 0.3s;
+}
+
+@media (max-width: 768px) {
+       
+.logindata {
+    font-size: 18px;
+    font-weight: 800;
+    padding: 0  5px;
+    transform: 0.3s;
+}
+
+}

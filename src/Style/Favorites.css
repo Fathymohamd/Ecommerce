@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.ferotet {
+    width: 80%;
+    margin: auto;
+}
+
+.dataFavorites {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+}
+
+.feroteslength {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+   
+}
+
+.feroteslength p {
+    background-color: #08c7fc;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 18px;
+    font-weight: 800;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+}

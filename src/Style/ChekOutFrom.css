@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 0 11px;
+}
+.Formchekout {
+   width: 70%;
+   margin: auto;
+}
+
+.cart-imgs1 {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    
+.user {
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ display: none;
+}
+
+.Formchekout {
+   width:90%;
+   margin: auto;
+}
+
+}
