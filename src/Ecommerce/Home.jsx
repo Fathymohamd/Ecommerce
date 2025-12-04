@@ -59,7 +59,7 @@ setproduct(productdata)
   }
 }
 fectproduct()
-} , [product])
+} , [])
 
 
 return (
